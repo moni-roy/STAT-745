@@ -3,7 +3,7 @@
 Spring 2021, University of Nevada, Reno
 
 ## Required textbook
-Statistical Computing with R, Second Edition, by Maria L. RIZZO.
+[Statistical Computing with R, Second Edition, by Maria L. RIZZO.](<https://github.com/moni-roy/STAT-745/blob/master/statistical-computer-with-r-2nd-edition.pdf>)
 
 ### Github with resources
 
