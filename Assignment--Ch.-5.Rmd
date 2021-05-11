@@ -2,11 +2,16 @@
 title: "Assignment Ch 5"
 author: "Monikrishna Roy"
 date: "05-03-2020( update: `r Sys.Date()`)"
-output: bookdown::html_document2
+output: 
+  bookdown::html_document2:
+    keep_md: yes
 ---
 
 ```{r setup,number_figures, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-5-"
+)
 library(bookdown)
 library(MASS)
 library(lattice)

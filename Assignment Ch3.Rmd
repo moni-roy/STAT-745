@@ -2,13 +2,18 @@
 title: 'Assignment: Ch. 3 Problem Set'
 author: "Monikrishna Roy"
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  html_document:
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
 set.seed(02192021)
 library(MASS)
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-3-"
+)
 ```
 
 ## Ex 3.1

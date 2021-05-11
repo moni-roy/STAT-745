@@ -5,6 +5,7 @@ date: "03/19/2021 (update: `r Sys.Date()`)"
 output: 
   bookdown::html_document2:
     number_sections: FALSE
+    keep_md: yes
 ---
 
 <style type="text/css">
@@ -22,6 +23,9 @@ h4.date {
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-6-"
+)
 set.seed(03192021)
 library(bookdown)
 library(VGAM)

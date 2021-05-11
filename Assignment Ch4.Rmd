@@ -2,11 +2,16 @@
 title: 'Assignment: Ch. 4 Problem set 4.1 and 4.3'
 author: "Monikrishna Roy"
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  html_document:
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-4-"
+)
 set.seed(02262021)
 ```
 

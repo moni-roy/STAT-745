@@ -6,6 +6,7 @@ output:
   bookdown::html_document2:
     number_sections: FALSE
     toc: yes
+    keep_md: yes
 ---
 
 <style type="text/css">
@@ -23,6 +24,9 @@ h4.date {
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-8-9-"
+)
 set.seed(04022021)
 library(bootstrap)
 library(boot)

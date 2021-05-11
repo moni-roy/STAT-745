@@ -2,11 +2,17 @@
 title: "Midterm Exam"
 author: "Monikrishna Roy"
 date: "`r Sys.Date()`"
-output: html_document
+output: 
+  html_document:
+    keep_md: yes
+  
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+  fig.path = "README_figs/README-mid-"
+)
 library(bootstrap)
 library(ggplot2)
 library(gridExtra)
