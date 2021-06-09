@@ -1,4 +1,9 @@
 # STAT-745: Computational Methods in Statistics
+![](https://img.shields.io/github/last-commit/moni-roy/STAT-745)
+![](https://tokei.rs/b1/github/moni-roy/STAT-745?category=files)
+![](https://img.shields.io/tokei/lines/github/moni-roy/STAT-745)
+![](https://img.shields.io/github/repo-size/moni-roy/STAT-745)
+
 
 Spring 2021, University of Nevada, Reno
 
